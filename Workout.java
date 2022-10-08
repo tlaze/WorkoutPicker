@@ -1,19 +1,21 @@
-public class Exercise {
+import java.util.ArrayList;
 
-    private String exercise;
+public class Workout {
+
+    private ArrayList<Workout> exercise;
     private int length;
 
-    public Exercise(String exercise, int length){
+    public Workout(ArrayList<Workout> exercise, int length){
         this.exercise = exercise;
         this.length = length;
     }
 
     //GETTER and Setters
-    public String getExercise(){
+    public ArrayList<Workout> getExercise(){
         return exercise;
     }
 
-    public void setExercise(String exercise){
+    public void setExercises(ArrayList<Workout> exercise){
         this.exercise = exercise;
     }
 
@@ -29,5 +31,4 @@ public class Exercise {
     public String toString(){
         return "You chose to do: " + this.exercise + " for a duration of " + this.length + " minutes.";
     }
-    
 }
