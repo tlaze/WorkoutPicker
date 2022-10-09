@@ -2,20 +2,20 @@ import java.util.ArrayList;
 
 public class Workout {
 
-    private ArrayList<Workout> exercise;
+    private String exercise;
     private int length;
 
-    public Workout(ArrayList<Workout> exercise, int length){
+    public Workout(String exercise, int length){
         this.exercise = exercise;
         this.length = length;
     }
 
     //GETTER and Setters
-    public ArrayList<Workout> getExercise(){
+    public String getExercise(){
         return exercise;
     }
 
-    public void setExercises(ArrayList<Workout> exercise){
+    public void setExercises(String exercise){
         this.exercise = exercise;
     }
 

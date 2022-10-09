@@ -1,3 +1,3 @@
-public class WeightLifting extends Exercise {
+public class WeightLifting{
     
 }

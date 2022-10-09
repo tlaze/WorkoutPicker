@@ -1,3 +1,3 @@
-public class Cardio extends Exercise {
+public class Cardio{
     
 }
