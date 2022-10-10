@@ -12,19 +12,22 @@ public class Main{
 
         String userAnswer = "Squat";    //debugging user choice       
 
-        String example = "";    //Initialized String to add user's answer to
+        String work = "";    //Initialized String to add user's answer to
 
         // Loops through exersize ArrayList. If userAnswer equals an item it
         // adds to example String
         for( String s : exercise){
             if(userAnswer.equals(s)){
-                example += s;
+                work += s;
             }
         }
-        System.out.println(example);    //confirmation for loop works
+        System.out.println(work);    //confirmation for loop works
 
-        Workout poop = new Workout(example, 2); //Creates new Workout object
-        System.out.println(poop);
+        Workout run = new Workout(work, 2); //Creates new Workout object
+        System.out.println(run);
+
+        WeightLifting lift = new WeightLifting(work, 30, 5, 10);
+        System.out.println(lift);
 
     }
 }

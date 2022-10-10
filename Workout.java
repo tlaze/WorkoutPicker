@@ -29,6 +29,6 @@ public class Workout {
 
     @Override
     public String toString(){
-        return "You chose to do: " + this.exercise + " for a duration of " + this.length + " minutes.";
+        return "You picked: " + this.exercise + " for a duration of " + this.length + " minutes.";
     }
 }
