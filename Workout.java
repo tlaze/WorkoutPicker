@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Workout {
 
     private String exercise;
@@ -29,6 +27,6 @@ public class Workout {
 
     @Override
     public String toString(){
-        return "You completed: " + this.exercise + " for a duration of " + this.length + " minutes.";
+        return "You completed " + this.exercise + " for a duration of " + this.length + " minutes.";
     }
 }
