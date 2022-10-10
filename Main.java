@@ -23,11 +23,14 @@ public class Main{
         }
         System.out.println(work);    //confirmation for loop works
 
-        Workout run = new Workout(work, 2); //Creates new Workout object
-        System.out.println(run);
+        Workout gym = new Workout(work, 2); //Creates new Workout object
+        System.out.println(gym);
 
-        WeightLifting lift = new WeightLifting(work, 30, 5, 10);
+        WeightLifting lift = new WeightLifting(work, 30, 5, 10); //Creates a Weightlifting object with overridden toString method
         System.out.println(lift);
+
+        Cardio run = new Cardio(work, 60, 2, 10);   //debug for cardio class
+        System.out.println(run);
 
     }
 }

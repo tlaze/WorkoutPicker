@@ -25,7 +25,7 @@ public class WeightLifting extends Workout{
         this.numReps = numReps;
     }
 
-    //Concatenates base "Workout" class with overridden toString
+    //Concatenates parent "Workout" class with overridden toString
     @Override
     public String toString(){
         return super.toString() + " Number of Sets: " + this.numSets + " Number of Reps: " + this.numReps;
